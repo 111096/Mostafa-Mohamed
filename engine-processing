@@ -1,0 +1,12 @@
+spring.batch.job.enabled=false
+spring.main.banner-mode=off
+spring.main.allow-circular-references=true
+spring.config.import=optional:configserver:http://localhost:8888/
+spring.data.mongodb.uri=mongodb://admin:Fawry@localhost:27017/
+spring.data.mongodb.database=local
+spring.servlet.multipart.max-file-size=256MB
+spring.servlet.multipart.max-request-size=256MB
+spring.servlet.multipart.enabled=true
+spring.kafka.producer.bootstrap-servers=localhost:9091,localhost:9092,localhost:9093
+spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
+spring.main.allow-bean-definition-overriding=true
