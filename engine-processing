@@ -1,6 +1,4 @@
 spring.batch.job.enabled=false
-spring.main.banner-mode=off
-spring.main.allow-circular-references=true
 spring.data.mongodb.uri=mongodb://admin:Fawry@localhost:27017/
 spring.data.mongodb.database=local
 spring.servlet.multipart.max-file-size=256MB
